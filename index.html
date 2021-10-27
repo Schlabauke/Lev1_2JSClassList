@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev1_2 JS Classlist</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- Erstelle eine HTML Datei in der du die Headline “Meine Bucket List” und eine Liste mit Dingen, die du gerne machen oder erleben möchtest, platzierst. 
+
+Gib der Headline und der Liste jeweils eine eindeutige ID.
+Erstelle im CSS zwei neue Klassen und vergebe dort eine Font sowie Textfarbe und Schriftgröße deiner Wahl. Natürlich darfst du auch gerne mehr Stylings verwenden. :) 
+	Du wirst eine Klasse für die Headline und eine Klasse für die Liste nutzen. Überleg dir
+also passende Namen und Stylings für die Klassen.
+Weise nun mit JavaScript der Headline und der Liste die jeweilige Klassen zu.
+ -->
+
+<!-- Füge im HTML unterhalb der Liste einen Button “Headline stylen” hinzu.
+Gib dem Button die Funktion changeHeadline() mit.
+Im JavaScript nutzt du jetzt den Button, um der Headline das neue CSS Styling zuzuweisen.
+Erstelle auch einen Button “Headline zurücksetzen” und weise ihm die Funktion resetHeadline() zu.
+ -->
+
+<body>
+    <h1 id="headline">Meine Bucket-List</h1>
+    <ul id="list">
+        <li>mit Haien tauchen</li>
+        <li>auf allen Kontinenten der Erde gewesen sein</li>
+        <li>Zeitreisen</li>
+        <li>immer 1€ mehr auf dem Konto haben, als ich brauche</li>
+    </ul>
+    <button onclick="changeHeadline()">Headline stylen</button>
+    <button onclick="resetHeadline()">Reset Headline</button>
+
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

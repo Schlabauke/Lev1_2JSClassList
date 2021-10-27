@@ -1,0 +1,17 @@
+#headline {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.font {
+    font-family: fantasy;
+    font-weight: bold;
+    color: darkcyan;
+    font-size: 45px;
+}
+
+.listing {
+    font-family: cursive;
+    color: darkgreen;
+    background-color: darksalmon;
+}
